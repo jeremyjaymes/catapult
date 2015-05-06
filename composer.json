@@ -1,0 +1,26 @@
+{
+    "name" : "jeremyjaymes/catapult",
+    "type" : "wordpress-plugin",
+    "description" : "Core functionality plugin boilerplate for WordPress",
+    "keywords" : [  ],
+    "homepage" : "http://papertreedesign.com",
+    "license" : "GPL-2.0+",
+    "authors" : [
+        {
+            "name" : "Jeremy Vossman",
+            "email" : "jeremy@papertreedesign.com",
+            "homepage" : "http://jeremyjaymes.com",
+            "role" : "Lead Developer"
+        }
+    ],
+    "require" : {
+        "composer/installers" : "~1.0.0",
+        "php" : ">=5.2.4",
+        "webdevstudios/cmb2": "2.0.6"
+    },
+    "extra" : {
+        "installer-paths": {
+            "vendor/webdevstudios/cmb2": ["webdevstudios/cmb2"]
+        }
+    }
+}

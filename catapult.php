@@ -10,8 +10,8 @@ Author URI: http://papertreedesign.com
 */
 
 // Metaboxes
-if ( file_exists( dirname( __FILE__ ) . 'vendor/cmb2/init.php' ) ) {
-    require_once dirname( __FILE__ ) . 'vendor/cmb2/init.php' );
+if ( file_exists( dirname( __FILE__ ) . 'library/cmb2/init.php' ) ) {
+    require_once dirname( __FILE__ ) . 'library/cmb2/init.php' );
 }
 
 // Require additional files as needed
