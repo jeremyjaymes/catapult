@@ -1,0 +1,11 @@
+# OSX
+.DS_Store
+
+# Dependencies
+node_modules
+
+# Sass
+.sass-cache
+
+# Extra
+todo.md
