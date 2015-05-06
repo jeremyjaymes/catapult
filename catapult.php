@@ -9,10 +9,13 @@ Requires at least: 4.1
 Author URI: http://papertreedesign.com
 */
 
-//metaboxes
+// Metaboxes
 if ( file_exists( dirname( __FILE__ ) . 'vendor/cmb2/init.php' ) ) {
     require_once dirname( __FILE__ ) . 'vendor/cmb2/init.php' );
 }
 
 // Require additional files as needed
 // e.g. require_once plugin_dir_path( __FILE__ ) . 'admin/custom-metaboxes.php';
+
+// Helper functions
+require_once plugin_dir_path( __FILE__ ) . 'inc/required.php';
