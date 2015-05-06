@@ -8,5 +8,8 @@ vendor/
 # Sass
 .sass-cache
 
+# Dev
+library/test/
+
 # Extra
 todo.md
