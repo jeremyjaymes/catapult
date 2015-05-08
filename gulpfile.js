@@ -16,5 +16,5 @@ var filesToMove = [
 
 gulp.task('copycmb', function() {
    gulp.src(filesToMove)
-   .pipe(gulp.dest('library/test/cmb2'));
+   .pipe(gulp.dest('library/cmb2'));
 });
