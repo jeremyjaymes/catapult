@@ -14,7 +14,7 @@ The philosophy behind the organization is inspired in part by http://wppb.io.
 * /libraries holds 3rd party libaries, e.g. CMB2
 
 ### Intended Usage
-Pull down a copy, if the CMB2 metabox library is required run <i>composer install</i> then run gulp copycmb, rename the plugin and plugin file, replace prefixes, start writing you code.
+Pull down a copy, if the CMB2 metabox library is required run <code>composer install</code> then run <code>gulp copycmb</code>, rename the plugin and plugin file, replace prefixes, start writing your code.
 
 ### Notes
 This thing is still very much in development as I try to figure out the best way to make things as portable and reusable as possible. It will change.
