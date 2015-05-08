@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var gulpif = require('gulp-if');
 
 var filesToMove = [
         'vendor/webdevstudios/cmb2/**/*',
@@ -15,5 +16,5 @@ var filesToMove = [
 
 gulp.task('copycmb', function() {
    gulp.src(filesToMove)
-   .pipe(gulp.dest('library/cmb2'));
+   .pipe(gulp.dest('library/test/cmb2'));
 });
