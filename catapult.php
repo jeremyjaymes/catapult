@@ -9,6 +9,11 @@ Requires at least: 4.1
 Author URI: http://papertreedesign.com
 */
 
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+    die;
+}
+
 // Metaboxes
 if ( file_exists( dirname( __FILE__ ) . '/library/cmb2/init.php' ) ) {
     require_once dirname( __FILE__ ) . '/library/cmb2/init.php' );
