@@ -1,0 +1,9 @@
+{
+  "name": "catapult",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp-if": "^1.2.5",
+    "gulp": "^3.9.0",
+    "gulp-copy": "0.0.2"
+  }
+}
