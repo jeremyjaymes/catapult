@@ -28,7 +28,7 @@
  * @param string $url, request url
  * @return array request arguments
  */
-function plugin_name_hide_update( $r, $url ) {
+function catapult_hide_update( $r, $url ) {
     if ( 0 !== strpos( $url, 'http://api.wordpress.org/plugins/update-check' ) )
         return $r; // Not a plugin update request. Bail immediately.
     $plugins = unserialize( $r['body']['plugins'] );
@@ -37,4 +37,4 @@ function plugin_name_hide_update( $r, $url ) {
     $r['body']['plugins'] = serialize( $plugins );
     return $r;
 }
-add_filter( 'http_request_args', 'plugin_name_update', 5, 2 );
+add_filter( 'http_request_args', 'catapult_hide_update', 5, 2 );
